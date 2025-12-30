@@ -1,0 +1,8 @@
+{
+  "regions": ["iad1"],
+  "rewrites": [
+    { "source": "/graphql", "destination": "/api/graphql" },
+    { "source": "/batch/(.*)", "destination": "/api/batch" },
+    { "source": "/", "destination": "/index.html" }
+  ]
+}

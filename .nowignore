@@ -1,0 +1,9 @@
+
+README.md
+yarn.lock
+
+src/entities
+src/utils/seed.ts
+.env
+env_file/.env
+temp
