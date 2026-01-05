@@ -2,7 +2,7 @@
   "name": "api-minimal",
   "packageManager": "yarn@3.1.1",
   "scripts": {
-    "dev": "cross-env CONFIG_TYPE=local nodemon src/dev.ts",
+    "dev": "cross-env CONFIG_TYPE=local nodemon src/index.ts",
     "deploy": "yarn clean && now --prod --env CONFIG_TYPE=production",
     "deploy-dev": "yarn clean && now --prod --env CONFIG_TYPE=development",
     "clean": "rimraf \".now\"",
